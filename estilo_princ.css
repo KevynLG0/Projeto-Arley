@@ -1,5 +1,7 @@
 body{
-
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-com-hexagono-de-tecnologia-azul_1017-19366.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #div1 {
@@ -13,6 +15,7 @@ body{
     margin-left: 1%;
     margin-top: 1.5%;
     font-size: 30px;
+    color: white;
 }
 
 #logo{
@@ -24,9 +27,29 @@ body{
 }
 
 #div2 {
-    border: 1px solid black;
+
     width: 75%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
+    background-color: white;
+
+}
+
+#exemplo{
+    width: 35%;
+    height: 400px;
+    margin-left: 5%;
+    border: 2px solid black;
+}
+
+#divexemplo{
+    text-align: left;
+    display: flex;
+}
+
+h2{
+    margin-left: 20%;
+    font-size: 30px;
+    font-weight: bold;
 }
